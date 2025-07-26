@@ -1,5 +1,3 @@
-
-
 let submitBtn = document.querySelector(".submitBtn");
 let inp = document.querySelector(".inp");
 let tasksContainer = document.querySelector(".tasksContainer");
@@ -14,9 +12,7 @@ if(input === ""){
 }else{
     addTask()
 }
-
 });
-
 function addTask(){
 let inputVal = inp.value;
 if(inputVal !== ""){
