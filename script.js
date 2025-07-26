@@ -1,41 +1,4 @@
-// let winnPatterns = [
-//   [0, 1, 2],
-//   [0, 3, 6],
-//   [2, 5, 8],
-//   [6, 7, 8],
-//   [3, 4, 5],
-///   [1, 4, 7],
-///   [0, 4, 8],
-///   [2, 4, 6],
-/// ];
-/// let scrollRevealOption = {
-///     distance: "15px",
-///     duration: 600,
-/// };
-/// ScrollReveal().reveal(".container", {
-///     ...scrollRevealOption,
-///     origin: "bottom",
-/// });
-/// ScrollReveal().reveal(".container", {
-///     ...scrollRevealOption,
-///     delay: 600,
-/// });
-/// const romanMap = [
-///   { value: 4000, numeral: "M" },
-///   { value: 900, numeral: "CM" },
-///   { value: 500, numeral: "D" },
-///   { value: 400, numeral: "CD" },
-///   { value: 100, numeral: "C" },
-///   { value: 90, numeral: "XC" },
-///   { value: 50, numeral: "L" },
-///   { value: 40, numeral: "XL" },
-///   { value: 10, numeral: "X" },
-///   { value: 9, numeral: "IX" },
-///   { value: 5, numeral: "V" },
-///   { value: 4, numeral: "IV" },
-///   { value: 1, numeral: "I" }
-/// ];
-/// let api = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(value)}`;
+
 
 let submitBtn = document.querySelector(".submitBtn");
 let inp = document.querySelector(".inp");
